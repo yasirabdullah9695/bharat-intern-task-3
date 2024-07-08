@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: #fff;
+ 
+    background-position: fixed;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .user-profile img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.hero {
+    background: url('netflix.webp') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+.video{
+    background-color:rgba(17, 16, 16, 0.786);
+
+}
+.video h1{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.enjoy{
+    float: center; 
+  
+    background-color:rgba(17, 16, 16, 0.786);
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    
+}
+p2{
+    
+    margin: 15px;
+    font-size: larger;
+}
+ .head tag{
+    float: right;
+ }
+ .enjoy1{
+    display: inline;
+    float:center;
+ }
+.enjoy2{
+    float: right;
+
+}
+.head tag1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1{
+    float: ;
+} 
+.video1{
+    
+}
